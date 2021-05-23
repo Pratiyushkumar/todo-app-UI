@@ -1,0 +1,77 @@
+.main-container{
+    font-family: 'Roboto', sans-serif;
+    /* padding-left: 300px; */
+    margin: 10% 23%;
+    align-items: center;
+    letter-spacing: 0.5px;
+}
+
+.task-container{
+    display: grid;
+    grid-template-columns: 220px 390px 50px 250px;
+  
+}
+
+.title1{
+    margin-left: 30px;
+    font-size: 65px;
+}
+
+.title2{
+    font-size: 65px;
+    font-weight: 500;
+
+}
+
+.heading2{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(226, 34, 21);
+    color: white;
+    border-radius: 50%;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.heading3{
+    font-weight: 100px;
+    margin-top: 60px;
+}
+
+.card-container{
+    display: flex;
+    width: 650px;
+    height: 500px;
+}
+
+.cards{
+    border: 2px solid red;
+    border-radius: 10px;
+    width: 280px;
+    height: 250px;
+    color: rgb(240, 44, 44);
+    font-weight: 200;
+    font-size: 18px;
+    margin-left: 40px;
+    box-shadow: 3px 3px 2px 4px rgb(226, 222, 222);
+}
+
+.character-styling{
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.complete-task{
+    margin-left: 40px;
+    text-decoration-line :line-through ;
+    font-weight: 700;
+}
+
+.checkbox{
+    margin-left: 10px;
+    color: black;
+    font-weight: 900;
+
+}
